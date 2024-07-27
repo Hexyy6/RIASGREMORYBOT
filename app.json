@@ -9,7 +9,7 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "TOXXIC MD",
+        "value": "Paramount",
         "required": true
       },
   
@@ -20,7 +20,7 @@
       },
       "USER_IMAGES": {
         "description": "Menu Images",
-        "value": "https://i.imgur.com/EBUvKfB.jpeg",
+        "value": "https://telegra.ph/file/71fcd1f14ee371e63b5e8.mp4",
         "required": false
       },
   
