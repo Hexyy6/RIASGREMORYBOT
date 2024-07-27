@@ -60,7 +60,7 @@
       "AUTO_SAVE_STATUS": {
         "description": " Auto save whatsapp status",
         "required": false,
-        "value": "false"
+        "value": "true"
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
@@ -99,15 +99,15 @@
       },
       "PREFIX": {
         "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-        "value": "."
+        "value": "!"
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "33757054414"
+        "value": "2349060947343"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK1BHcnlmSVJuRjdHLzJDVGlpRzc1Y2o3WlZTMzBPa3FFQy9WTXlvcFhIND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic3diK1JOajJLODlFOEw3S0VkQTd6UE5DSFRSRHZxWGNneHFuSmVzempqVT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJpSG5lS242V2svRXlhNjJscFJMaEZHL21UeDVJZHRMRm4wOTFBQWFta1hRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJscDFIVE9ZbEVPOEUzMk9OYzZQbGhLQVloWHB1cEVVdUhoTWlCeWovTld3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFFdzQreUFpVjBxTVlXU0s1UjhLZ0xnQmxsQzRHRUhTZkcrS1RXbEVuSHM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjNJT3dpWjhxcEdFQitESCtWQVdoaEJrenBEMEFGRGlGRzRUOTNwY3crR2c9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0hOQzVHQS9yMzg5NzdpdllTLzBTNDM3ajhCRGhHeS85a3d6R2J1cDNIVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUJLSzVYNHUrajQzTlJBMFJGU3U3SFBwZVVmRGxuUDJpcGp4RDI1NVBoND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkRMZWIwNDN2bkpvbnJ5OG83N1BJaHZKSVlkb3BqTlZCaXpDWWxkTmIvL0FGK0tkOXBuUEpMNXRzMWtndHlUWTVpYTNvNHdMajh6dVdESXgwYW10aENRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTk3LCJhZHZTZWNyZXRLZXkiOiJHUjRrNm9QckNCTWtqd3FJYkpqQUZwdVdhV0pXa3pOYVBXNVBKaDk3eHJjPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJLXzZXSXAwQlNPZTg5WkQyLThhUnB3IiwicGhvbmVJZCI6IjJiNjRjYjg4LWQ1NmEtNGM1YS1iMTkyLWJiMGIxZTYwMzQ0YiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPOHRwQXFKU0h4WWNNWEFLRkZpcC9nc1l5dHM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSnZkbWxyaGNYUGZJTE1mL1FhWXFyOGtkOTdZPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IldMWTc4TVdGIiwibWUiOnsiaWQiOiIyMzQ5MDYwOTQ3MzQzOjIwQHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPL2p3dWdDRVBxdGxiVUdHQVFnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJNeWNJOG5OaUFKZWJkbVZ0TDc1ZXZia3BsZjBHYm5oQUcxNE9sMFR6MnhnPSIsImFjY291bnRTaWduYXR1cmUiOiJrWDBIdUp0ckVrYnl2bzFUQit1NHczTHlpZEx6cGdyenNlVUwxUGRiVWRNUTJadGdXQXZRa0VXeTJhSlJCaS9uMUltTlZOQWVHN1k2UG9xWnpSRndCdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiZGo2Sm5DUHlOZHhrdVhjU0IyZjFCYWRHNWVFTFV3amJRcjMxVXdnWjNLZWwrK0hNc1htdURGYkRZV1FVSFBPZy9iMGpTbEdUVDdwcHRoSE1YWmlqQWc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ5MDYwOTQ3MzQzOjIwQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlRNbkNQSnpZZ0NYbTNabGJTKytYcjI1S1pYOUJtNTRRQnRlRHBkRTg5c1kifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjIxMTE3NTUsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSndrIn0="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
