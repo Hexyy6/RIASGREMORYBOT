@@ -60,7 +60,7 @@
       "AUTO_SAVE_STATUS": {
         "description": " Auto save whatsapp status",
         "required": false,
-        "value": "true"
+        "value": "false"
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
